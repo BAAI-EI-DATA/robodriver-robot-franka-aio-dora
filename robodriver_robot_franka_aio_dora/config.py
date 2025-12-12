@@ -65,7 +65,30 @@ class FrankaAioDoraRobotConfig(RobotConfig):
                 width=640,
                 height=480,
             ),
-
+            "image_wrist_fish": OpenCVCameraConfig(
+                index_or_path=3,
+                fps=30,
+                width=640,
+                height=480,
+            ),
+            "image_hand": OpenCVCameraConfig(
+                index_or_path=4,
+                fps=30,
+                width=640,
+                height=480,
+            ),
+            "image_hand_depth": OpenCVCameraConfig(
+                index_or_path=5,
+                fps=30,
+                width=640,
+                height=480,
+            ),
+            "image_hand_fish": OpenCVCameraConfig(
+                index_or_path=6,
+                fps=30,
+                width=640,
+                height=480,
+            ),
         }
     )
 
